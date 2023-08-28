@@ -19,7 +19,7 @@ CPMAddPackage(
   VERSION 3.4.0
 )
 
-CPMAddPackage("gh:jhorzek/lesstimate#8ac2bf41b34a67b0a6fb751c1605cee3cd07edc4")
+CPMAddPackage("gh:jhorzek/lesstimate#LESSTIMATE_VERSION")
 
 #include(Catch)
 
