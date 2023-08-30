@@ -9,6 +9,7 @@
       {
         "name": "linux",
         "generator": "Unix Makefiles",
+        "binaryDir": "${sourceDir}/build",
         "cacheVariables": {
           "CMAKE_BUILD_TYPE": "Release",
           "CMAKE_CXX_FLAGS": "-U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 -fstack-protector-strong -fcf-protection=full -fstack-clash-protection -Wformat -Werror=format-security -Wdate-time -Wall -Wpedantic -Wextra -Wshadow",
@@ -19,6 +20,7 @@
       {
         "name": "macos",
         "generator": "Unix Makefiles",
+        "binaryDir": "${sourceDir}/build",
         "cacheVariables": {
           "CMAKE_BUILD_TYPE": "Release",
           "CMAKE_CXX_FLAGS": "-fstack-protector-strong -fcf-protection=full -Wformat -Werror=format-security -Wdate-time -Wall -Wpedantic -Wextra -Wshadow"
