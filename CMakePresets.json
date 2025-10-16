@@ -23,7 +23,7 @@
         "binaryDir": "${sourceDir}/build",
         "cacheVariables": {
           "CMAKE_BUILD_TYPE": "Release",
-          "CMAKE_CXX_FLAGS": "-fstack-protector-strong -fcf-protection=full -Wformat -Werror=format-security -Wdate-time -Wall -Wpedantic -Wextra -Wshadow"
+          "CMAKE_CXX_FLAGS": "-Wformat -Werror=format-security -Wdate-time -Wall -Wpedantic -Wextra -Wshadow"
         }
       },
       {
