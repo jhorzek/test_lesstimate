@@ -8,9 +8,9 @@ include(cmake/CPM.cmake)
 
 # ---- Dependencies ----
 CPMAddPackage(
-	URL "https://sourceforge.net/projects/arma/files/armadillo-12.6.3.tar.xz"
+	URL "https://sourceforge.net/projects/arma/files/armadillo-15.0.3.tar.xz"
 	NAME armadillo
-	VERSION 12.6.3
+	VERSION 15.0.3
 )
 
 CPMAddPackage(
